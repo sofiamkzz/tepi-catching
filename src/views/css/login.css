@@ -1,0 +1,83 @@
+:root {
+    --main-color: #d42249;
+    --accent-color: #ffccf9;
+    --secondary-color: #6a0572;
+    --light-color: #fff4f9;
+    --dark-pink: #d42249;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.navbar {
+    background: #d42249;
+    background: linear-gradient(90deg, #e70a3a8f 20%, rgba(255, 255, 255, 0) 78%, rgba(209, 11, 54, 0.564) 100%);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--secondary-color) !important;
+}
+
+h1 {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    flex: 1;
+}
+
+.form-control {
+    background-color: #fff4f78f;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0dadf8f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    color: var(--secondary-color);
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.btn-main:hover {
+    background-color: var(--dark-pink);
+}
+
+footer {
+    background: #d42249;
+    background: linear-gradient(90deg, #e70a3a8f 28%, rgba(255,255,255,0) 48%, rgba(209, 11, 54, 0.564) 90%);
+    height: 60px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
