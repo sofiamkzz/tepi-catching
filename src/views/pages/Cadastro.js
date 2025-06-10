@@ -160,7 +160,7 @@ const Cadastro = () => {
             </div>
 
             <button type="submit" className="btn btn-main w-100">Cadastrar</button>
-            <p className="text-center mt-3">Já tem uma conta? <a href="/login">Faça login</a>.</p>
+            <p className="text-center mt-3">Já tem uma conta? <a href="/">Faça login</a>.</p>
           </form>
         </div>
       </div>
