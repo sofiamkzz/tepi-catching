@@ -115,7 +115,7 @@ const Admin = () => {
       }
 
       // Atualiza dados no Firestore
-      await updateDoc(doc(db, "users", selectedUserId), dadosAtualizados);
+      await updateDoc(doc(db, "usuarios", selectedUserId), dadosAtualizados);
 
       // Atualiza localmente para re-renderizar a lista
       setUsers((prevUsers) =>
